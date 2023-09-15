@@ -5,16 +5,12 @@
  * @autor 2023 Escribe tu nombre
  */
 session_start();
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-
 
 require_once(__DIR__.'/../config.php');
 require_once(__DIR__.'/../configpsql.php');
 class Sistema
 {
    var $db = null;
-   var $db2 = null;
    /**
     * Conexión a la base de datos
     *
