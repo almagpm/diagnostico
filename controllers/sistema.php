@@ -7,7 +7,6 @@
 session_start();
 
 require_once(__DIR__.'/../config.php');
-require_once(__DIR__.'/../configpsql.php');
 class Sistema
 {
    var $db = null;
